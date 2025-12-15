@@ -1,0 +1,93 @@
+/*
+ Theme Name:   TapHoaMMO Child
+ Description:  Hello Elementor Child Theme designed for TapHoaMMO clone.
+ Author:       Antigravity
+ Template:     hello-elementor
+ Version:      1.0.0
+*/
+
+:root {
+  --primary-color: #00b14f;
+  --secondary-color: #dc3545;
+  --text-color: #333;
+  --light-bg: #f5f5f5;
+}
+
+/* === GENERAL === */
+body {
+  font-family: "Roboto", sans-serif !important;
+}
+
+/* === HEADER === */
+.site-header {
+  background-color: var(--primary-color);
+}
+.site-header a {
+  color: #fff !important;
+}
+
+/* === SEARCH BAR (FiboSearch) === */
+.dgwt-wcas-search-wrapp {
+  max-width: 600px !important;
+  margin: 0 auto;
+}
+
+.dgwt-wcas-sf-wrapp input[type="search"].dgwt-wcas-search-input {
+  border-radius: 30px !important;
+  border: 2px solid var(--primary-color) !important;
+  padding-left: 20px !important;
+}
+
+.dgwt-wcas-sf-wrapp button.dgwt-wcas-search-submit {
+  background-color: var(--primary-color) !important;
+  border-radius: 0 30px 30px 0 !important;
+  width: 100px !important;
+  font-weight: bold;
+}
+
+/* === CATEGORY ICON BOXES === */
+.mmo-cat-box .elementor-icon {
+  background-color: var(--primary-color) !important;
+  width: 80px !important;
+  height: 80px !important;
+  border-radius: 50% !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 15px !important;
+}
+
+.mmo-cat-box .elementor-icon i {
+  color: #fff !important;
+  font-size: 35px !important;
+}
+
+.mmo-cat-box:hover .elementor-icon {
+  transform: scale(1.1);
+  transition: all 0.3s ease;
+}
+
+/* === PRODUCT CARD === */
+.woocommerce ul.products li.product {
+  border: 1px solid #eee;
+  padding: 15px;
+  border-radius: 8px;
+  transition: 0.3s;
+}
+
+.woocommerce ul.products li.product:hover {
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.woocommerce ul.products li.product .button {
+  background-color: var(--primary-color) !important;
+  color: #fff !important;
+  border-radius: 20px !important;
+  width: 100%;
+}
+
+.price {
+  color: var(--secondary-color) !important;
+  font-weight: bold;
+  font-size: 1.1rem;
+}
